@@ -16,3 +16,13 @@ for index, score in enumerate(answer):
     if i == max(answer):
         ans.append(i+1)
 ```
+
+### 1-5
+- 체육복   
+- O(n)   
+- lambda를 사용하면 한줄로 해결 가능   
+- lambda, reduce, filter 함수 공부   
+
+### 1-6
+- 2016년   
+- 잘 푼것 같다   
