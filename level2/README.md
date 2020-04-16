@@ -56,3 +56,7 @@ print(list(zip(phone_book, phone_book[1:])))
 p1.startswith(p2, startindex, endindex)
 # p1 스트링이 p2로 시작하면 True 리턴, 아니면 False 리턴, p1의 범위도 설정가능
 ```
+
+### 2-i
+- 주식 가격   
+- 계속 감소하는 경우를 틀림
