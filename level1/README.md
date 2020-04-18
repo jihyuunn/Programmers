@@ -23,6 +23,13 @@ for index, score in enumerate(answer):
 - lambda를 사용하면 한줄로 해결 가능   
 - lambda, reduce, filter 함수 공부   
 
-### 1-6
+### 1-7
 - 2016년   
 - 잘 푼것 같다   
+
+### 1-8
+- 124 나라의 숫자   
+- python divmod()함수를 많이 쓴다   
+```python
+q,r = divmod(n-1, 3)
+```
