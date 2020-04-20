@@ -32,4 +32,17 @@ for index, score in enumerate(answer):
 - python divmod()함수를 많이 쓴다   
 ```python
 q,r = divmod(n-1, 3)
+# 몫과 나머지를 반환한다
 ```
+
+### 1-9
+- 같은 숫자는 싫어
+```python
+a = []
+print(a[-1:])
+# a[-1]을 하면 빈 배열이기 때문에 오류가 나지만 a[-1:]로 부르면 그냥 빈배열이 나온다
+```
+
+### 1-10
+- 나누어떨어지는 숫자배열    
+- if else로 return하는 부분을 한줄로 줄여서 많이 쓴다   
