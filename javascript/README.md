@@ -8,3 +8,21 @@ for (const [key, value] in Object.entries(a)) {
     console.log(key, value)
 }
 ```
+
+### 2. 모의고사
+- array에서 최대값이나 최소값을 구하고 싶을 때 Math 사용
+```javascript
+const answer = [1,23,100]
+const maximum = Math.max(...answer)
+const minimum = Math.min(...answer)
+```
+
+### 3. 문자열 내 p와 y의 개수
+- string의 하나하나 알파벳을 출력하고 싶을 때
+```javascript
+const myStr = 'answer'
+for (const i of myStr) {
+    console.log(i)
+}
+[...myStr].forEach(i => console.log(i))
+```
