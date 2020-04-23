@@ -26,3 +26,16 @@ for (const i of myStr) {
 }
 [...myStr].forEach(i => console.log(i))
 ```
+
+### 4. 가운데 글자 가져오기
+- string을 자를 때 slice함수를 써야한다   
+- 하지만 단 하나의 문자를 가져올 때는 someString[n]도 가능하다   
+
+### 5. 문자열 다루기 기본
+- string안에 어떤 substring이 포함되어있는지 알고싶을 때
+```javascript
+const string = 'abcde';
+const subString = 'a';
+string.includes(subString);
+// true 혹은 false가 리턴된다
+```
