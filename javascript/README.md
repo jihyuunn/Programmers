@@ -67,3 +67,13 @@ parseInt(string, radix);
 // sting을 radix에 써져있는 진수에서 10진수로 바꿔준다.
 ```
 
+### 8. K번째수
+- js에도 array.sort() 함수가 있지만 string기준으로 sort한다   
+- sort()안에 compare 함수를 넣어줘야 숫자 기준으로 sort가 된다   
+```javascript
+const someArray = [2, 1, 20, 100, 300]
+someArray.sort()
+// [1, 100, 2, 200, 300]
+someArray.sort(function(a, b) {return a - b})
+// [1, 2, 100, 200, 300]
+```
