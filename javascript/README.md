@@ -54,3 +54,16 @@ for (let i in myObject) {
 // first
 // second
 ```
+
+### 7. 문자열을 정수로 바꾸기
+- parseInt는 string의 시작부터 숫자가 나오는 부분을 그냥 숫자로 바꿔준다   
+```javascript
+const a = '1234qwer';
+parseInt(a);
+// 1234
+Number(a);
+// Nan
+parseInt(string, radix);
+// sting을 radix에 써져있는 진수에서 10진수로 바꿔준다.
+```
+
