@@ -39,3 +39,18 @@ const subString = 'a';
 string.includes(subString);
 // true 혹은 false가 리턴된다
 ```
+
+### 6. 위장   
+- object안에는 무조건 key,value쌍으로 들어가야한다   
+- object안에서 해당 키값이 있는지 확인 할 수 있는 내장 객체
+```javascript
+const myObject = {first: 0, second: 2}
+console.log(myObject.hasOwnProperty('first')) // true
+console.log(myObject.hasOwnProperty(2)) // false
+
+for (let i in myObject) {
+    console.log(i)
+}
+// first
+// second
+```
