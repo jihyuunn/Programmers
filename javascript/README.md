@@ -86,3 +86,17 @@ const a = Array(6).fill(0);
 // [0,0,0,0,0,0]
 ``` 
 
+### 10. 가장 큰 수
+- javascript의 sort함수에 대한 이해가 부족하다   
+```javascript
+const a = [
+    {name: 'a', age: 2},
+    {name: 'b', age: 30},
+    {name: 'c', age: 23},
+    {name: 'd', age: 6},
+]
+a.sort((a,b) => b.name>a.name?1:a.name>b.name?-1:0);
+// d,c,b,a
+a.sort((a,b) => b.age - a.age);
+// 30,23,6,2
+```
