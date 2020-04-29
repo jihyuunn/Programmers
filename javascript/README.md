@@ -77,3 +77,12 @@ someArray.sort()
 someArray.sort(function(a, b) {return a - b})
 // [1, 2, 100, 200, 300]
 ```
+
+### 9. 기능개발
+- python처럼 초기 배열 크기 선언할 때 곱하기로는 안된다   
+- 다양한 테스트케이스 만들어봐야함   
+```javascript
+const a = Array(6).fill(0);
+// [0,0,0,0,0,0]
+``` 
+
