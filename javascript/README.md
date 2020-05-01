@@ -111,3 +111,13 @@ console.log(s.split("").reverse().join(""));
 
 ### 12. 탑   
 - javascript의 reverse()함수는 array를 뒤집는 함수이기 때문에 124나라의 숫자처럼 string을 뒤집어주기 위해서는 split()함수로 array로 바꿔준 후에 reverse할 수 있다   
+- map함수에서 현재 value와 index를 한번에 가져올 수 있고, map함수는 원래 array를 바꾸는게 아니라 새로운 array를 반환한다   
+```javascript
+const a = [1,2,3,4,5];
+a.map((currentValue, index) => {
+    while (i) {
+        i--;
+        // 여기서 앞의 인덱스 숫자가 더 큰게 있는지 확인 가능
+    }
+})
+```
