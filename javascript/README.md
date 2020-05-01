@@ -100,3 +100,14 @@ a.sort((a,b) => b.name>a.name?1:a.name>b.name?-1:0);
 a.sort((a,b) => b.age - a.age);
 // 30,23,6,2
 ```
+
+### 11. 124나라의 숫자   
+- 숫자를 더하는 위치 조심하기   
+```javascript
+const s = "abcde";
+console.log(s.split("").reverse().join(""));
+// edcba
+```
+
+### 12. 탑   
+- javascript의 reverse()함수는 array를 뒤집는 함수이기 때문에 124나라의 숫자처럼 string을 뒤집어주기 위해서는 split()함수로 array로 바꿔준 후에 reverse할 수 있다   
