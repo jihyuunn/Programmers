@@ -121,3 +121,11 @@ a.map((currentValue, index) => {
     }
 })
 ```
+
+### 13. 프린터    
+- break loop이 안되는 것 같다   
+
+### 14. 큰 수 만들기
+- slice는 원래 배열을 바꾸지 않고 splice는 원래 배열을 바꾼다   
+- indexOf    
+- 가장 큰수인 9를 찾았을 때 break를 해주면 시간이 훨씬 줄어든다   
