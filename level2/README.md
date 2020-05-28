@@ -133,7 +133,3 @@ print(list(map(''.join, permutations(k))))
 
 ### 2-t   
 - 카펫   
-
-### 2-u   
-- 가장 먼 노드   
-- bfs구현    
