@@ -137,3 +137,6 @@ a.map((currentValue, index) => {
 ### 16. 소수 찾기   
 - Array.join() 으로 했을 때 ,가 같이 생긴다 꼭 Array.join('')으로 해줘야 ,없이 제대로 합쳐진다   
 - 먼저 permutation구현해서 가능한 모든 경우의 수를 array안에 담고, 에라토스테네스의 체를 구현한다   
+### 17. H-index   
+- 지난번에 python으로 풀었을 때보다 더 수월하게 푼 것 같다 -> 반례를 빨리 찾아내서..      
+- 큰 숫자부터 sort한다음에 현재 index와 비교하여 작은 숫자 return, return된 숫자와 answer 중 큰 숫자 리턴   
