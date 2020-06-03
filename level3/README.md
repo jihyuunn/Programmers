@@ -38,3 +38,15 @@ for num in a:
 heapq.heappop(heap) # 최대값 pop하기
 ```
 
+### 7   
+- 베스트 앨범   
+- 일단 장르별로 인덱스 번호랑 재생 숫자 모아놓고, 각 장르안에서 재생 회수로 sort 후에 같은 재생 회수안에서 인덱스 빠른 순으로 정렬하고, 장르 전체 재생 회수로 정렬   
+- 고려하지 못한 반례가 너무 많았다(인덱스 순서, 람다 오류)   
+```python
+a = [[[0, 500], [2, 150], [3, 800]], [[1, 600], [4, 2500]], [[5, 1000]]]
+a = sorted(a, key=lambda x: sum(x[1]), reverse=True)
+# 이 때 [[5, 1000]] 여기에서 index out of range 오류가 난다 
+for j in range(len(a)):
+    count[j] = sorted(count[j], key=lambda x:(-x[1], x[0]))
+# x의 1번째 인덱스에 있는 요소를 기준으로 reverse해서 정렬하고, 0번째 인덱스를 기준으로 정렬하기
+```
