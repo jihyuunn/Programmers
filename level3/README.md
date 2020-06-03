@@ -21,3 +21,20 @@
 - 어떤 상태에서 어떤 상태로 몇번만에 이동 가능한지 -> bfs/dfs   
 - dfs로 풀려고 하다가 잘 안풀려서 bfs로 풀었다   
 - 서로 다른 알파벳 개수를 단순히 not in으로 해주니 테스트케이스 3번이 실패했고, 하나하나 비교해주니 통과했다(전체 테케가 작아서 가능했다)   
+
+### 6   
+- 이중 우선순위 큐   
+- 명령 배열의 길이가 1000000 이어서 그냥 단순히 sort돌려도 풀린다   
+- 원래는 heaq를 사용해서 풀어야 함   
+```python
+import heapq
+a = [100,1,2,13,1444,121]
+heapq.heapify(a)
+heapq.heappop(a) # 가장 작은 수 pop하기
+a.remove(max(a)) # 가장 큰 수 제거하기 
+heap = []
+for num in a:
+    heapq.heappush(heap, (-num, num))
+heapq.heappop(heap) # 최대값 pop하기
+```
+
