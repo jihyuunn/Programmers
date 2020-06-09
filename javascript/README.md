@@ -140,3 +140,10 @@ a.map((currentValue, index) => {
 ### 17. H-index   
 - 지난번에 python으로 풀었을 때보다 더 수월하게 푼 것 같다 -> 반례를 빨리 찾아내서..      
 - 큰 숫자부터 sort한다음에 현재 index와 비교하여 작은 숫자 return, return된 숫자와 answer 중 큰 숫자 리턴   
+
+### 18. 다음 큰 숫자   
+- n을 하나씩 늘려가면서 확인하면 된다   
+```javascript
+const portion = parseInt(n/2); //n을 2로 나눈 몫
+const remainder = n%2;
+```
