@@ -147,3 +147,11 @@ a.map((currentValue, index) => {
 const portion = parseInt(n/2); //n을 2로 나눈 몫
 const remainder = n%2;
 ```
+
+### 20. 입국 심사    
+- Array 안에서 최대 최소인 숫자 구할 때 리스트 안에 요소만 넘겨줘야한다       
+```javascript
+const answer = [1,23,100]
+const maximum = Math.max(...answer)
+const minimum = Math.min(...answer)
+```
